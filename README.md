@@ -4,7 +4,7 @@ A JSON API that returns the latest news for CSUN's Student Recreation Center.  B
 
 
 Source:
-https://github.com/kyledeguzmanx/fDev-API-CSUN-SRCNews/blob/main/SRC_newsfeed.jpg
+![](https://github.com/kyledeguzmanx/fDev-API-CSUN-SRCNews/blob/main/SRC_newsfeed.jpg)
 
 ## TECHNOLOGY USED
 CheerioJS   
