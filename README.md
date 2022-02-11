@@ -2,6 +2,10 @@
 ## INTRODUCTION
 A JSON API that returns the latest news for CSUN's Student Recreation Center.  Built with ExpressJS, RequestJs, and CheerioJs
 
+
+Source:
+https://github.com/kyledeguzmanx/fDev-API-CSUN-SRCNews/blob/main/SRC_newsfeed.jpg
+
 ## TECHNOLOGY USED
 CheerioJS   
 ExpressJS  
