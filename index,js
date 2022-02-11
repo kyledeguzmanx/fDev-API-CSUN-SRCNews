@@ -10,6 +10,7 @@ request("https://www.csun.edu/src/news/", (error, response, html) =>{
     //console.log(newsfeed.html());
     let titles = [];
     let dates = [];
+    let description = [];
 
     $(".view-content .views-row article h2").each((i,el) =>{
       const item = $(el).text();
@@ -21,8 +22,14 @@ request("https://www.csun.edu/src/news/", (error, response, html) =>{
 
       dates.push(item);
     })
-    console.log(titles[40]);
-     console.log(dates[3]);
+    $(".view-content .views-row article .field-type-text-long p").each((i,el) =>{
+      const item = $(el).text();
+
+      description.push(item);
+    })
+    console.log(titles[31]);
+     console.log(dates[31]);
+     console.log(description[31]);
   }
   else{
     console.log("error")
