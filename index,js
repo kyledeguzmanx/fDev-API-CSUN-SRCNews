@@ -4,15 +4,25 @@ const express = require("express");
 
 request("https://www.csun.edu/src/news/", (error, response, html) =>{
   if(!error && response.statusCode == 200){
+    
     const $ = cheerio.load(html);
     const newsfeed = $(".view-content");
     //console.log(newsfeed.html());
+    let titles = [];
+    let dates = [];
 
     $(".view-content .views-row article h2").each((i,el) =>{
       const item = $(el).text();
 
-      console.log(item);
+      titles.push(item);
     })
+    $(".view-content .views-row article p.field-type-datetime").each((i,el) =>{
+      const item = $(el).text();
+
+      dates.push(item);
+    })
+    console.log(titles[40]);
+     console.log(dates[3]);
   }
   else{
     console.log("error")
