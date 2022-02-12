@@ -16,6 +16,8 @@ Uptime Robot
 ## SCREENSHOTS
 ### RETURNED JSON DATA
 ![](https://github.com/kyledeguzmanx/fDev-API-CSUN-SRCNews/blob/main/JSONData.jpg?raw=true)
+### FETCH SAMPLE CODE
+![](https://github.com/kyledeguzmanx/fDev-API-CSUN-SRCNews/blob/main/samplecode.jpg?raw=true)
 
 ## HOW TO USE
 
