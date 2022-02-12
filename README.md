@@ -21,7 +21,7 @@ Uptime Robot
 
 ## HOW TO USE
 
-The API is currently available in the [RAPID API Marketplace](https://rapidapi.com/kyledeguzmanx/api/csun-src-news-data/).  
+The API is currently available in the [RAPID API Marketplace](https://rapidapi.com/kyledeguzmanx/api/csun-src-news-data/). Find all my APIs on my profile on RapidAPI [@kyledeguzmanx](https://rapidapi.com/user/kyledeguzmanx)   
 
 
 In order to use the API, you must sign in to the Rapid API platform. 
