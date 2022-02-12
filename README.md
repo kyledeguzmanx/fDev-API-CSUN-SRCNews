@@ -13,6 +13,10 @@ Replit
 Request HTTP Client  
 Uptime Robot
 
+## SCREENSHOTS
+### RETURNED JSON DATA
+![](https://github.com/kyledeguzmanx/fDev-API-CSUN-SRCNews/blob/main/JSONData.jpg?raw=true)
+
 ## HOW TO INSTALL
 Find my APIs on [RapidAPI](https://rapidapi.com/user/kyledeguzmanx). The API is completely free. To use it, you need a private API key provided by RapidAPI. Sign in will be required.
 
