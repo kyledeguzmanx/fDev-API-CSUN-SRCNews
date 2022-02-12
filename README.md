@@ -20,3 +20,4 @@ Note: Keep your API Keys private and off your GitHub. For more information, chec
 
 ## CREDITS
 CSUN SRC [NEWS PAGE](https://www.csun.edu/src/news/)
+Remove "\n" from string [StackOverflow](https://stackoverflow.com/questions/36274626/javascript-remove-n-from-string)
