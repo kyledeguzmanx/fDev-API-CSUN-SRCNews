@@ -18,7 +18,7 @@ request("https://www.csun.edu/src/news/", (error, response, html) =>{
       titles.push(item);
     })
     $(".view-content .views-row article p.field-type-datetime").each((i,el) =>{
-      const item = $(el).text();
+      const item = $(el).text().trim();
 
       dates.push(item);
     })
@@ -27,9 +27,17 @@ request("https://www.csun.edu/src/news/", (error, response, html) =>{
 
       description.push(item);
     })
-    console.log(titles[31]);
-     console.log(dates[31]);
-     console.log(description[31]);
+    
+    let returnObj = [];
+    for(var i = 0; i < titles.length; i++){
+        returnObj.push({
+          title: titles[i],
+          date: dates[i],
+          details: description[i]
+        })
+    }
+
+    console.log(returnObj);
   }
   else{
     console.log("error")
